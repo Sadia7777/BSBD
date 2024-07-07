@@ -1,0 +1,41 @@
+
+/* Title */
+@media (max-width: 768px) {
+    .title img {
+        width: 30%;
+    }
+}
+/* Topbar section */
+@media (max-width: 576px) {
+    .topbar .left-icon{
+        display: none;
+    }
+}
+/* Banner section */
+@media (max-width: 768px) {
+    #banner-section .image img{
+      height: 280px;
+    }
+    #banner-section .banner-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+/* course section */
+@media (max-width: 768px) {
+    #courses-section .left-image{
+      padding: 0px 50px;
+    } 
+}
+/* Call To Action section */
+@media (max-width: 768px) {
+    #call-to-action .action-contant{
+        margin-top: 35px;
+    } 
+    #contact-section .contact-form{
+        padding: 20px;
+    } 
+}
+
+
