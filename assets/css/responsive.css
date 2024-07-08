@@ -1,18 +1,12 @@
 
-/* Title */
-@media (max-width: 768px) {
-    .title img {
-        width: 30%;
-    }
-}
-/* Topbar section */
-@media (max-width: 576px) {
+/* Banner section */
+ @media (min-width: 351px) and (max-width: 768px){
     .topbar .left-icon{
         display: none;
     }
-}
-/* Banner section */
-@media (max-width: 768px) {
+    .title img {
+        width: 30%;
+    }
     #banner-section .image img{
       height: 280px;
     }
@@ -20,22 +14,73 @@
         margin-top: 40px;
         text-align: center;
     }
-}
-
-/* course section */
-@media (max-width: 768px) {
+    #banner-section .banner-video{
+        justify-content: center;
+    }
     #courses-section .left-image{
-      padding: 0px 50px;
-    } 
-}
-/* Call To Action section */
-@media (max-width: 768px) {
+        padding: 0px 50px;
+      } 
+    #courses-section .courses-item{
+        padding: 0px 100px 20px 100px;
+      } 
+    #services-section .services-item{
+        padding: 0px 100px 20px 100px;
+      } 
     #call-to-action .action-contant{
         margin-top: 35px;
     } 
     #contact-section .contact-form{
         padding: 20px;
     } 
-}
+    #contact-section .contact-item{
+        padding: 5 100px;
+    } 
+ }
+ @media (min-width:200px) and (max-width: 350px){
+    .topbar .left-icon{
+        display: none;
+    }
+    .topbar .right-icon a{
+        
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        line-height: 20px;
+        background: #fff;
+        color: #15b9d9;
+        border-radius: 50%;
+        margin-left: 8px;
+      }
+    .topbar .right-icon  i{
+        
+        font-size: 14px;
+      }
+    #banner-section .banner-contact form{
+        display: none;
+    }
+    #banner-section .banner-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #banner-section .banner-text p{
+        margin-bottom:0;
+        
+    }
+    #banner-section .banner-video{
+        justify-content: center;
+    }
+    #contact-section .contact-item form{
+      margin: 10px 0;
+    } 
+    #contact-section .contact-item form p{
+        display: none;
+    } 
+    #contact-section .contact-item form textarea{
+        height: 50px;
+    } 
+   
+ }
+
+
 
 
